@@ -16,7 +16,7 @@ module.exports = (client) => {
 
     (async() => {
         try {
-            await rest.put(Routes.applicationGuildCommands(clientId, "759383560095793162"), {
+            await rest.put(Routes.applicationGuildCommands(clientId, "GuildId?"), {
                 body: Slashcommands
             })
             console.log(`[INFO] Slash Commands is registered`)

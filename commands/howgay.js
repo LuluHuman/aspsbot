@@ -1,9 +1,7 @@
 exports.run = async (client, message, args, Discord) => {
 	try {
 		const enteries = {
-			"635303930879803412": "<@635303930879803412> 0% gay but 100% Horny",//me
-			"724976679436419144": '0% because vary gud mod',//kaiwen
-			"744904282553188474": "error:\n Unable to calculate such a big number"//dayen
+			"*USERID": "<@*USERID> 0% gay but 100% Horny",//example
 		}
 		function RandomNumber(min, max) {
 			return Math.floor(Math.random() * (max - min + 1)) + min;

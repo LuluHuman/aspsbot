@@ -22,7 +22,7 @@ function makeTxt(rank,name,xp,lvl,pfp){
 }
 
 function getRanks() {
-    return fetch('https://asps.mason-bot.xyz/getRanks',
+    return fetch('https://*URL/getRanks',
         {
             method: "GET",
             headers: {

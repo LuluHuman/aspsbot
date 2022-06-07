@@ -1,8 +1,7 @@
 exports.run = async (client, message, args, Discord) => {
 	try {
 		const enteries = {
-			"635303930879803412": "<@635303930879803412> have ∞ IQ",//me
-			"724976679436419144": '∞ IQ because vary gud mod'//kaiwen
+			"*USERID": "<@*USERID> have ∞ IQ",//example
 		}
 		function RandomNumber(min, max) {
 			return Math.floor(Math.random() * (max - min + 1)) + min;

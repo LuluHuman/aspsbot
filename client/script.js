@@ -8,7 +8,7 @@ function generate() {
   button.appendChild(element); 
   
   const Http = new XMLHttpRequest();
-  const url = 'https://asps.mason-bot.xyz/get';
+  const url = 'https://*URL/get';
   Http.open("GET", url);
   Http.send();
 

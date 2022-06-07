@@ -1,4 +1,4 @@
-fetch("https://asps.mason-bot.xyz/getGuild")
+fetch("https://*URL/getGuild")
   .then(response => {
     return response.blob()
   })
